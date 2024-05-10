@@ -96,12 +96,7 @@ public class UtilesFile {
 		ExplicitWaitGetTitle(driver.getTitle());
 		return driver.getTitle();
 	}
-//	public static void AlertAccept(WebElement element) {
-//		driver.switchTo().alert().accept();
-//	}
-//	public static void Alertdismiss(WebElement element) {
-//		driver.switchTo().alert().dismiss();
-//	}
+
 	public static void Clickon(WebElement element) {
 	    element.click();
 	}
@@ -141,10 +136,8 @@ public class UtilesFile {
 				}
 			}
 			workBook.close();
-			return data;
-			
+			return data;			
 		}
-		 
 
 	public static int TakescreenShot(String TestName) throws InterruptedException, Exception, Exception {
 		int randomnum = (int) (Math.random() * 100 + 10000);
